@@ -100,7 +100,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: rgb(140, 117, 14);
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -380,4 +380,20 @@ input[type="submit"] {
 .specialization {
   margin-top: 60px;
   margin-bottom: 30px;
+}
+
+footer {
+  background-color: rgb(140, 117, 14);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 15px;
+}
+
+@media all and (max-width: 650px) {
+  footer {
+    flex-direction: column;
+    padding: 5px;
+  }
 }

@@ -1,3 +1,2 @@
-import { galleryDisplayFunction } from "./gallery.js";
-
+import { galleryDisplayFunction } from "./gallery.min.js";
 galleryDisplayFunction();
